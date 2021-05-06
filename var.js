@@ -1,4 +1,4 @@
-var div5 = document.getElementById('three3'); // Возвращает 1 элеменит
+var div5 = document.getElementById('three3'); // Возвращает 1 элемент
 var div5 = document.getElementById('three3').getElementsByTagName('p'); // Возвращает массив параграфов (p)
 // // var par = div5.getElementsByTagName('p'); // Возвращает масив параграфов(p)
 // // var div = document.getElementsByTagName('div'); // Возвращает масив дивов (div)

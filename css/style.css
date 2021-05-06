@@ -1,0 +1,51 @@
+/* @font-face {
+    font-family: 'Open Sans'; Имя шрифта
+    src: url('https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2'); путь к шрифту
+} */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2);
+}
+
+* {
+    margin: 0;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main_logo {
+    width: 8%;
+}
+
+.logo_discord {
+    width: 20%;
+}
+
+.logo_vk {
+    width: 20%;
+}
+
+.comm_social {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+header {
+    min-height: 450px; /* Размеры хедера */
+    background: url('../img/cover_orig.png'); /* Фон */
+    background-size: cover; /* Разрешение фона */
+}
+
+.top-line {
+    height: 100px;
+    background: rgba(14, 14, 23, 0.5);
+}
