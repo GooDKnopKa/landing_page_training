@@ -54,12 +54,12 @@ header {
     justify-content: flex-end;
     align-content: center; */
     font-family: 'Open Sans';
-    font-size: 15px;
+    font-size: 17px;
     color: white;
     background: none;
     border: 2px solid #018dc4;
     border-radius: 19px;
-    padding: 5px 10px;
+    padding: 6px 10px;
     float: right;
     margin: 23px;
     margin-top: 0 auto;
