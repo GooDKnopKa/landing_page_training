@@ -19,7 +19,10 @@
 }
 
 .main_logo {
-    width: 8%;
+    width: 8.2%;
+    /* margin: 0.1%;
+    margin-top: 0 auto;
+    margin-left: 0 auto; */
     float: left;
 }
 
@@ -53,15 +56,16 @@ header {
     /* display: flex;
     justify-content: flex-end;
     align-content: center; */
-    font-family: 'Open Sans';
+    font-family: 'Lato';
     font-size: 17px;
+    font-weight: 500;
     color: white;
     background: none;
     border: 2px solid #018dc4;
     border-radius: 19px;
     padding: 6px 10px;
     float: right;
-    margin: 23px;
+    margin: 22px;
     margin-top: 0 auto;
     margin-left: 0 auto;
     /* margin-top: 23px;
