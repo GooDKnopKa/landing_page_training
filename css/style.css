@@ -3,13 +3,7 @@
     src: url('https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2'); путь к шрифту
 } */
 
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2);
-}
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,700;1,900);
 
 * {
     margin: 0;
@@ -24,24 +18,14 @@
     width: 8%;
 }
 
-.logo_discord {
-    width: 20%;
-    float: right;
-    margin-top: 20px;
-}
-
-.logo_vk {
-    width: 20%;
-    float: right;
-    margin-top: 20px;
-}
-
-.comm_social {
+.phones {
     color: #fff;
-    font-size: auto;
-    text-align: center;
-    font-family: 'Open Sans';
-    margin-top: 20px;
+    float: right;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    /* margin-top: 20px; */
 }
 
 header {
@@ -52,7 +36,7 @@ header {
 
 .top-line {
     height: 75px;
-    background: rgba(14, 14, 23, 0.5);
+    background: rgba(41, 41, 70, 0.5);
     padding: 25px 0;
 }
 
@@ -65,4 +49,9 @@ header {
     border-radius: 19px;
     padding: 5px 10px;
     float: right;
-}
+    margin: 23px;
+    margin-top: 0 auto;
+    margin-left: 0 auto;
+    /* margin-top: 23px;
+    margin-left: 13px; */
+} 
