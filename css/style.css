@@ -26,17 +26,22 @@
 
 .logo_discord {
     width: 20%;
+    float: right;
+    margin-top: 20px;
 }
 
 .logo_vk {
     width: 20%;
+    float: right;
+    margin-top: 20px;
 }
 
 .comm_social {
     color: #fff;
-    font-size: 22px;
+    font-size: auto;
     text-align: center;
     font-family: 'Open Sans';
+    margin-top: 20px;
 }
 
 header {
@@ -46,6 +51,18 @@ header {
 }
 
 .top-line {
-    height: 100px;
+    height: 75px;
     background: rgba(14, 14, 23, 0.5);
+    padding: 25px 0;
+}
+
+.random_anime   {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: white;
+    background: none;
+    border: 2px solid #018dc4;
+    border-radius: 19px;
+    padding: 5px 10px;
+    float: right;
 }
