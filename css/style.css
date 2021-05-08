@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Lato';
+    font-weight: 500;
+}
+
 .wrap {
     /* display: flex; */
     /* align-content: center; */
@@ -70,4 +75,59 @@ header {
     margin-left: 0 auto;
     /* margin-top: 23px;
     margin-left: 13px; */
-} 
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #00a9ea;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20;
+    margin-bottom: 80px;
+}
+
+.main {
+    text-align: center;
+    padding: 90px 0 130px 0;
+}
+
+.register {
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    background: #ee6e22;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.phone {
+    float: none;
+    /* margin-bottom: 100px 100px 100px 100px; */
+    /* padding: 100px; */
+    margin: 60px;
+    /* margin-top: 0 auto; */
+    /* margin-left: 0 auto; */
+}
+
+.phone img {
+    width: 18px;
+    color: white;
+    position: relative;
+    top: 2px;
+}
+
+.phone a {
+    position: relative;
+    top: -2px;
+    color: white;
+}
