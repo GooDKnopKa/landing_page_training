@@ -3,7 +3,7 @@
     src: url('https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2'); путь к шрифту
 } */
 
-@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,700;1,900);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,100;1,700;1,900');
 
 * {
     margin: 0;
@@ -12,6 +12,8 @@
 body {
     font-family: 'Lato';
     font-weight: 500;
+    font-style: normal;
+    font-display: auto;
 }
 
 .wrap {
@@ -37,7 +39,7 @@ body {
     align-content: center;
     color: #fff;
     float: right;
-    font-family: 'Lato';
+    /* font-family: 'Lato'; */
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -64,7 +66,6 @@ header {
     align-content: center;
     font-family: 'Lato';
     font-size: 17px;
-    font-weight: 500;
     color: white;
     background: none;
     border: 2px solid #018dc4;
@@ -80,9 +81,8 @@ header {
 
 .random_anime {
     display: block;
-    font-family: 'Lato';
+    /* font-family: 'Lato'; */
     font-size: 17px;
-    font-weight: 200;
     color: white;
     float: right;
     text-decoration: none;
@@ -90,7 +90,7 @@ header {
     border: 2px solid;
     border-radius: 1px;
     transition: 0.2s;
-    margin: 19px;
+    margin: 1.1em;
     background: rgb(0, 0, 0, .2);
     /* margin-top: 0 auto;
     margin-left: 0 auto;  Это всё не нужно, ибо свойство `margin` дает по всем 4 позициям одно значение*/
@@ -107,23 +107,23 @@ header {
 h1 {
     font-size: 50px;
     color: white;
-    font-family: 'Lato';
-    font-weight: 900;
+    /* font-family: 'Lato'; */
+    font-weight: 800;
     margin-bottom: 40px;
+    margin-bottom: .8em;
 }
 
 h2 {
     color: #00a9ea;
-    font-family: 'Lato';
-    font-weight: 500;
+    /* font-family: 'Lato'; */
     font-size: 20;
-    margin-bottom: 80px;
+    margin-bottom: .2em;
 }
 
-h3 {
-    position: relative;
-    top: -2px;
-    text-decoration: none;
+.button_name {
+    /* position: relative; */
+    /* top: -2px; */
+    /* text-decoration: none; */
     color: white;
     float: right;
     margin-left: 5px;
@@ -136,9 +136,8 @@ h3 {
 
 .register {
     display: inline-block;
-    font-family: 'Lato';
-    font-weight: 300;
-    font-size: 15px;
+    /* font-family: 'Lato'; */
+    font-size: 18px;
     float: none;
     background: none;
     /* border-radius: 20px; */
@@ -146,6 +145,7 @@ h3 {
     /* background: rgb(0, 0, 0, .3); */
     text-decoration: none;
     text-transform: uppercase;
+    margin-bottom: 3em;
 }
 
 .phone {
@@ -154,6 +154,7 @@ h3 {
     font-weight: 700;
     background: none;
     background: rgb(0, 0, 0, .3);
+    margin-bottom: 5em;
 }
 
 .phone img {
