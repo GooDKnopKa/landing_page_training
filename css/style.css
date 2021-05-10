@@ -13,7 +13,7 @@ body {
     font-family: 'Lato';
     font-weight: 500;
     font-style: normal;
-    font-display: auto;
+    /* font-display: auto; */
 }
 
 .wrap {
@@ -164,4 +164,35 @@ h2 {
     top: 2px;
     padding: 0 auto;
     /* padding: .5em 2em; */
+}
+
+.divider {
+    height: 80px;
+    background: #ff7f00;
+}
+
+.anime_product {
+    padding: 40px 0;
+    background: white;
+}
+
+.anime_list {
+    float: right;
+    width: 534px;
+    padding: 100px 0;
+}
+
+.anime_list h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #231f20;
+    margin-bottom: 45px;
+}
+
+ul li {
+    color: #00aaeb;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
