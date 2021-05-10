@@ -162,7 +162,7 @@ h2 {
     /* color: white; Нинада. Оно не работает так. */
     position: relative;
     top: 2px;
-    padding: 0 auto;
+    /* padding: 0 auto; */
     /* padding: .5em 2em; */
 }
 
@@ -195,4 +195,73 @@ ul li {
     font-size: 23px;
     margin-bottom: 15px;
     text-transform: uppercase;
+}
+
+.units_comm {
+    padding: 20px 0;
+}
+
+.ava {
+    border-radius: 100%;
+    width: 15em;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
+.bio {
+    float: right;
+    width: 534px;
+    /* padding: 100px 0; */
+    color: white;
+}
+
+.bio h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.unit_rang {
+    /* float: right; */
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    top: -1em;
+    font-size: 15px;
+    border: .2em solid #ff7f00;
+    border-radius: .9em;
+    background: #ff7f00;
+    /* padding: 1em; */
+}
+
+.Discord {
+    border: .2em solid #7289d9;
+    background: #7289d9;
+}
+
+.bio p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 1.1em;
+    color: #e6e6e6;
+    float: right;
+}
+
+.units_comm {
+    background: url('https://www.urbanoasis-sf.com/wp-content/uploads/2020/06/adrian-infernus-GLf7bAwCdYg-unsplash.jpg');
+    background-size: cover;
+}
+
+.clear {
+    clear: both;
+}
+
+.unit {
+    /* padding-bottom: 6em; */
+    margin: 6em auto;
 }
