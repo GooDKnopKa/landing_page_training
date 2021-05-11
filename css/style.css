@@ -237,6 +237,7 @@ ul li {
     border: .2em solid #ff7f00;
     border-radius: .9em;
     background: #ff7f00;
+    padding: 0 .3em;
     /* padding: 1em; */
 }
 
