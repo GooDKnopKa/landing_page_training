@@ -16,6 +16,14 @@ body {
     /* font-display: auto; */
 }
 
+input:hover {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
 .wrap {
     /* display: flex; */
     /* align-content: center; */
@@ -88,7 +96,8 @@ header {
     text-decoration: none;
     padding: .5em 1.7em;
     border: 2px solid;
-    border-radius: 1px;
+    /* border-radius: 1px; */
+    border-color: white;
     transition: 0.2s;
     margin: 1.1em;
     background: rgb(0, 0, 0, .2);
@@ -101,7 +110,8 @@ header {
 }
 
 .random_anime:active {
-    background: white;
+    background: orange;
+    border-color: orange;
 }
 
 h1 {
@@ -308,3 +318,27 @@ footer label {
 footer p {
     margin-bottom: 1em;
 }
+
+.input_footer:active {
+    background: none;
+}
+
+.input_footer:hover {
+    background: none;
+    border: 3px solid;
+    padding: .245em .45em;
+    /* outline: none; */
+}
+
+.input_footer:focus {
+    border: 3px solid;
+    padding: .245em .45em;
+}
+
+/* input,  */
+/* textarea {outline:none;}  */
+/* input:active,  */
+/* textarea:active {outline:none;} :focus {outline:none;}  */
+/* textarea {resize:none;}  */
+/* textarea {resize:vertical;}  */
+/* textarea {resize:horizontal;} */
