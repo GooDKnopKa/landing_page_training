@@ -73,7 +73,7 @@
                   <div class="clear"></div>
             </div>
             <div class="unit unit_GooDKnopKa">
-                  <img src="https://cdn.discordapp.com/avatars/545177324870565888/8e6fdef2025ba326bcc6b2ee1c7768db.png?size=512" alt="" class="ava">
+                  <img src="https://cdn.discordapp.com/avatars/545177324870565888/a_b7377dec6e033f1908baa294ad1d3c9c.gif?size=512" alt="" class="ava">
                   <div class="bio">
                      <h3>
                          <a href="https://vk.com/goodknopka" target="_blank">ДобраяKnopKa</a>
@@ -87,7 +87,7 @@
                   <div class="clear"></div>
             </div>
                <div class="unit unit_Gluk">
-                  <img src="https://cdn.discordapp.com/avatars/295235310705704971/a_aaba58ac91a9483907bdb43df3ed7765.gif?size=512" alt="" class="ava">
+                  <img src="https://cdn.discordapp.com/avatars/295235310705704971/a_f726c8ba8886df260ed549e26c0e3ee8.gif?size=512" alt="" class="ava">
                   <div class="bio">
                      <h3>
                         <a href="https://vk.com/lglukl" target="_blank">GLuK</a>
