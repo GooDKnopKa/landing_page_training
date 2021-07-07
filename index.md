@@ -1,37 +1,126 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniHouse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/main_logo.png">
+</head>
+<body>
+   <header>
+      <div class="top-line">
+         <div class="wrap">
+            <a href="https://anihouse.tv/view/18" target="_blank" class="random_anime">Рандомное Аниме</a>
+            <img src="img/main_logo.png" alt="https://energyforum.ru/uploads/location/восклицалка.png" class="main_logo">
+            <div class="phones">
+               Качественная озвучка.<br>
+                Выход озвучки в день выхода Anime.<br>
+               Хикаро собственной персоной.
+            </div>
+         </div>
+      </div>
+      <div class="main">
+         <div class="wpap">
+            <h1>Высшее качество от Хикаро!<br>
+               Озвучка Аниме
+            </h1>
+            <h2>
+               Смотрите в озвучке проекта AniHouse и самого Хикаро!
+            </h2>
+         </div>
+         <a href="http://anihouse.tv/" target="_blank" class="random_anime register">
+            Смотреть Король‑шаман
+         </a><br>
+         <a href="http://anihouse.tv/" target="_blank" class="random_anime phone">
+            <img src="img/global_vectorpaint.svg" alt="">
+            <div class="button_name">AniHouse.TV</div>
+         </a>
+      </div>
+   </header>
+   <div class="divider"></div>
+      <div class="anime_product">
+         <div class="wrap">
+            <img src="img/shaman_king.png" alt="" class="shaman_king">
+            <div class="anime_list">
+               <h3>Также, на сайте AniHouse</h3>
+               <ul>
+                  <li title="Привет">Шаман Кинг</li>
+                  <li>Девы Розена</li>
+                  <li>Чей-то взор</li>
+                  <li>Туалетный мальчик Ханако-кун</li>
+                  <li>Черная лагуна<br>И еще многое другое</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="divider"></div>
+      <div class="units_comm">
+         <div class="wrap">
+            <div class="unit unit_Hikaro">
+               <img src="img/hikaro_ava.png" alt="" class="ava">
+               <div class="bio">
+                  <h3>
+                     <a href="https://vk.com/hikaro_anihousetv" target="_blank">Hikaro</a>
+                     <div class="unit_rang">Основатель</div>
+                  </h3>
+                        <p>
+                           Знаете, мне достаточно быть уверенным в том, что всего лишь 1 человек смотрит с интересом и ждёт каждую новую серию аниме, которое я озвучиваю, чтобы выкладываться на полную и стараться делать это от чистого сердца ~
+                        </p>
+                        <div class="copyright">&copy; Олег Плаксин</div>
+                  </div>
+                  <div class="clear"></div>
+            </div>
+            <div class="unit unit_GooDKnopKa">
+                  <img src="https://cdn.discordapp.com/avatars/545177324870565888/8e6fdef2025ba326bcc6b2ee1c7768db.png?size=512" alt="" class="ava">
+                  <div class="bio">
+                     <h3>
+                         <a href="https://vk.com/goodknopka" target="_blank">ДобраяKnopKa</a>
+                        <div class="unit_rang Discord">Тех. Админ Discord</div>
+                     </h3>
+                        <p>
+                           <a href="https://open.spotify.com/track/58wyJLv6yH1La9NIZPl3ne?si=fa0377a61d06493e" target="_blank">Can we kiss forever?</a>
+                        </p>
+                     <div class="copyright">&copy; Валерий Слепцов</div>
+                  </div>
+                  <div class="clear"></div>
+            </div>
+               <div class="unit unit_Gluk">
+                  <img src="https://cdn.discordapp.com/avatars/295235310705704971/a_aaba58ac91a9483907bdb43df3ed7765.gif?size=512" alt="" class="ava">
+                  <div class="bio">
+                     <h3>
+                        <a href="https://vk.com/lglukl" target="_blank">GLuK</a>
+                        <div class="unit_rang Discord">Главный Админ Discord</div>
+                     </h3>
+                     <p>
+                        Те же, что тянулись к небу, но веду себя неладно. Но ты всё равно мне говоришь опять, что я хороший..
+                     </p>
+                     <div class="copyright">&copy; Дулат Даутов</div>
+                  </div>
+                  <div class="clear"></div>
+               </div>
+         </div>
+      </div>
+      <footer>
+          <div class="wrap">
+            <div class="footer_info">
+               <img src="img/main_logo.png" alt="https://energyforum.ru/uploads/location/восклицалка.png" class="main_logo">
+            </div>
+            <div class="footer_info">
+                  <a href="https://anihouse.tv/view/18" target="_blank" class="random_anime reg_in_footer"><div>Смотреть Король‑шаман</div></a>
+                  <!-- <a href="http://anihouse.tv/" target="_blank" class="random_anime register">Смотреть Король‑шаман</a> -->
+               </div>
+               <div class="footer_info">
+                  <input placeholder="Имя" type="text" inputmode="text" class="random_anime reg_in_footer input_footer" id="name"><br>
+                  <input placeholder="E-mail" type="email" inputmode="email" class="random_anime reg_in_footer input_footer" id="mail"><br>
+                  <input placeholder="Телефон" type="tel" inputmode="tel" class="random_anime reg_in_footer input_footer" id="phone" autocomplete="off">
+               </div>
+               <div class="clear"></div>
+            </div>
+        </footer>
 
-You can use the [editor on GitHub](https://github.com/GooDKnopKa/landing_page_training/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GooDKnopKa/landing_page_training/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<script src="/js/nothing.js"></script>
+<script src="/js/nothing2.js"></script>
+</body>
+</html>
